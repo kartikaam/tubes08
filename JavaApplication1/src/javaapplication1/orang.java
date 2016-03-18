@@ -9,8 +9,12 @@ package javaapplication1;
  * @author User
  */
 public class orang {
-    String Nama;
-    String alamat;
+    private String Nama;
+    private String alamat;
+
+    public orang(String Nama) {
+        this.Nama = Nama;
+    }
     
     public String getNama(String Nama){
         this.Nama = Nama;

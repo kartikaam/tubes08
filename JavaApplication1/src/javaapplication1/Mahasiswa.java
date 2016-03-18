@@ -8,7 +8,7 @@ package javaapplication1;
  *
  * @author Asus A450LC
  */
-public class Mahasiswa {
+public class Mahasiswa extends orang {
     private String nim;
     private String kelas;
     
@@ -21,10 +21,6 @@ public class Mahasiswa {
     public Mahasiswa(String nama, String nim){
         super(nama);
         this.nim=nim;
-    }
-    
-    public String getNama(){
-        return super(nama);
     }
     
     public void setNim(String nim){
