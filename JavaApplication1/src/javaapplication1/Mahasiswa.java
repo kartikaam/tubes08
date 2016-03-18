@@ -35,4 +35,5 @@ public class Mahasiswa extends orang {
     public String getKelas(){
         return kelas;
     }
+
 }
