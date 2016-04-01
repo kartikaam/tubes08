@@ -26,6 +26,13 @@ public class Asisten extends orang {
     public void removeTugasBesar(int indeks){
         tb.remove(indeks);
     }
-     
-     
+    @Override
+    public void setNama(String Nama){
+        super.setNama(Nama);
+    }
+    
+     @Override
+    public void setAlamat(String alamat){
+        super.setAlamat(alamat);
+    }
 }

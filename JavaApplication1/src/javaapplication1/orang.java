@@ -8,7 +8,7 @@ package javaapplication1;
  *
  * @author User
  */
-public class orang {
+public abstract class orang {
     private String Nama;
     private String alamat;
 
@@ -16,21 +16,21 @@ public class orang {
         this.Nama = Nama;
     }
     
-    public String getNama(String Nama){
+    public String getNama(){
         this.Nama = Nama;
         return Nama;
     }
     
-    public String getAlamat(String alamat){
+    public String getAlamat(){
         this.alamat = alamat;
         return alamat;
     }
     
-    public String setNama(String Nama){
-        return Nama;
+    public void setNama(String Nama){
+        Nama = Nama;
     }
     
-    public String setAlamat(String alamat){
-        return alamat;
+    public void setAlamat(String alamat){
+        alamat = alamat;
     }
 }

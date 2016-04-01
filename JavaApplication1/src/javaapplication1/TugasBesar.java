@@ -14,6 +14,14 @@ public class TugasBesar {
     private ArrayList<dokumentasi> dk = new ArrayList<>();
     private ArrayList<Mahasiswa> m = new ArrayList<>();
     private String judul;
+
+    public TugasBesar(String judul) {
+        this.judul = judul;
+    }
+
+    TugasBesar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     public void addMember(Mahasiswa m) {
         this.m.add(m);

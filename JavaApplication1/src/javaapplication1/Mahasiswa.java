@@ -23,6 +23,10 @@ public class Mahasiswa extends orang {
         this.nim=nim;
     }
     
+    public Mahasiswa(String nama){
+        super(nama);
+    }
+    
     public void setNim(String nim){
         this.nim=nim;
     }
