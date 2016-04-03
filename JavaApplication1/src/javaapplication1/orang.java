@@ -9,8 +9,8 @@ package javaapplication1;
  * @author User
  */
 public abstract class orang {
-    private String Nama;
-    private String alamat;
+    protected String Nama;
+    protected String alamat;
 
     public orang(String Nama) {
         this.Nama = Nama;
