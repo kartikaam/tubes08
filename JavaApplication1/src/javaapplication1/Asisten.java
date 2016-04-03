@@ -12,7 +12,8 @@ import java.util.ArrayList;
  */
 public class Asisten extends orang {
      private ArrayList<TugasBesar> tb = new ArrayList<>();
-
+     private int i;
+     
     public Asisten(String Nama) {
         super(Nama);
     }
@@ -26,13 +27,27 @@ public class Asisten extends orang {
     public void removeTugasBesar(int indeks){
         tb.remove(indeks);
     }
+    
+    public ArrayList<TugasBesar> getTugasBesar(){
+        return tb;
+    }
     @Override
     public void setNama(String Nama){
         super.setNama(Nama);
     }
     
+    @Override
+    public String getNama(){
+        return Nama;
+    }
+    
      @Override
     public void setAlamat(String alamat){
         super.setAlamat(alamat);
+    }
+     
+    @Override
+    public String getAlamat(){
+        return alamat;
     }
 }
